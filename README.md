@@ -14,7 +14,7 @@ Using custom middleware to intercept each request and validate URI prefix as a c
 
 - Clone the repo;
 ```shell
-git clone git@github.com:boolfalse/laravel-localization.git && laravel-localization/
+git clone git@github.com:boolfalse/laravel-localization.git && cd laravel-localization/
 ```
 
 - Install dependencies;
