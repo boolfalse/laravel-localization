@@ -1,7 +1,7 @@
 
 ## Laravel Localization
 
-A solid way to add multi-language support to your Laravel app.
+Using custom middleware to intercept each request and validate URI prefix as a current app locale.
 
 
 ### Prerequisites:
@@ -44,6 +44,9 @@ php artisan serve
 
 
 ### Resources:
+
+- Attached Medium article: [A solid way to add multi-language support to your Laravel app](https://medium.com/@boolfalse/a-solid-way-to-add-multi-language-support-to-your-laravel-app-3c34d7e44600)
+
 
 - [Installation: Your First Laravel Project](https://laravel.com/docs/10.x/installation#your-first-laravel-project)
 - [Localization: Introduction](https://laravel.com/docs/10.x/localization#introduction)
