@@ -14,11 +14,11 @@ return [
         ],
     ],
 
-    'hello_world' => "你好世界",
-    'change_language' => "更改语言",
+    'hello_world' => "Բարև աշխարհ",
+    'change_language' => "Փոխել լեզուն",
 
-    'home' => "家",
-    'about' => "关于",
-    'contact' => "联系",
-    'dashboard' => "仪表板",
+    'home' => "Տուն",
+    'about' => "Մասին",
+    'contact' => "Կապ",
+    'dashboard' => "Վահանակ",
 ];
