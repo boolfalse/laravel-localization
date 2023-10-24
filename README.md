@@ -1,7 +1,7 @@
 
 ## Laravel Localization
 
-Add multi-language support to your Laravel app
+A solid way to add multi-language support to your Laravel app.
 
 
 ### Prerequisites:
@@ -45,6 +45,8 @@ php artisan serve
 
 ### Resources:
 
+- [Installation: Your First Laravel Project](https://laravel.com/docs/10.x/installation#your-first-laravel-project)
+- [Localization: Introduction](https://laravel.com/docs/10.x/localization#introduction)
 - [Drop Down Menu (pure JavaScript)](https://codepen.io/dg1234uk/pen/wGyPRP)
 
 
