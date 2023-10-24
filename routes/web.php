@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group([
+    'prefix' => '{locale?}',
+], function () {
+    Route::get('/', function () {return view('welcome');});
+});
+
+Route::group([
+    'prefix' => '{locale?}/dashboard',
+], function () {
+    // Route::get('/', function () {return view('dashboard');});
 });
