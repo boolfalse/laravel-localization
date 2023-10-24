@@ -16,11 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'prefix' => '{locale?}',
 ], function () {
-    Route::get('/', function () {return view('welcome');});
+    Route::get('/', function () { return view('pages.home'); })->name('home');
+    Route::get('/about', function () { return view('pages.about'); })->name('about');
+    Route::get('/contact', function () { return view('pages.contact'); })->name('contact');
 });
 
 Route::group([
     'prefix' => '{locale?}/dashboard',
 ], function () {
-    // Route::get('/', function () {return view('dashboard');});
+    Route::get('/', function () { return view('pages.dashboard'); })->name('dashboard');
 });

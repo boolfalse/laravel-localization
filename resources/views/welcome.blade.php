@@ -15,7 +15,7 @@
         <p>{{ __('page.hello_world') }}</p>
     </div>
     <ul class="drop-down closed">
-        <li style="cursor: pointer">
+        <li class="cursor-pointer">
             <p class="nav-button">Change Language</p>
         </li>
         @foreach(config('localization.locales') as $locale)
@@ -26,6 +26,9 @@
             </li>
         @endforeach
     </ul>
+    <div class="page-content">
+        @yield('content')
+    </div>
 </nav>
 
 <script src="{{ asset('scripts.js') }}"></script>
